@@ -16,7 +16,7 @@ To use GC Design System icons in your project, copy the icon font files in the `
 
 ## Add CSS
 
-Copy the code inside the `gcds-icons.css` file into your CSS or include the `gcds-icons.css` file itself into your project.
+Copy the code inside the `gcds-icons.css` file into your CSS or include the `gcds-icons.css` file itself into your project. Replace `<path-to-file>` with the correct path to the icon font files in your project.
 <br/>
 <br/>
 
