@@ -1,3 +1,7 @@
+/*
+  Replace <path-to-file> with the correct path to
+  the gcds-icon font files in your project
+*/
 @font-face {
   font-family: "gcds-icons";
   src: url("<path-to-file>/fonts/gcds-icons.eot");
