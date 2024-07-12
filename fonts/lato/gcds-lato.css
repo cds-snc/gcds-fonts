@@ -1,19 +1,19 @@
 /*
-  Replace <path-to-file> with the correct path to
+  Replace path/to/file with the correct path to
   the gcds-lato font files in your project
 */
 @font-face {
   font-family: "Lato";
-  src: url("<path-to-file>/lato/gcds-lato.woff2") format("woff2"),
-    url("<path-to-file>/lato/gcds-lato.woff") format("woff");
+  src: url("path/to/file/gcds-lato.woff2") format("woff2"),
+    url("path/to/file/gcds-lato.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("<path-to-file>/lato/gcds-lato-italic.woff2") format("woff2"),
-    url("<path-to-file>/lato/gcds-lato-italic.woff") format("woff");
+  src: url("path/to/file/gcds-lato-italic.woff2") format("woff2"),
+    url("path/to/file/gcds-lato-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
