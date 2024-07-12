@@ -14,12 +14,12 @@ To use GC Design System icons in your project, place the following code in your 
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
