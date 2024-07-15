@@ -33,7 +33,7 @@ Navigate to the root folder of your project and run:
 npm install @cdssnc/gcds-fonts
 ```
 
-Place the following code in your CSS and replace `path/to/node_modules` with the location where you’ve added the node modules:
+Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
 
 ```css
 <!-- GC Design System Fonts - Noto Sans Mono -- >
