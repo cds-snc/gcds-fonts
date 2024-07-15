@@ -39,8 +39,7 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Noto Sans Mono -- >
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/
-gcds-noto-sans-mono.woff2") format("woff2"),
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
        url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
