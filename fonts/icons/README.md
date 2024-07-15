@@ -127,12 +127,12 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/icons/gcds-icons.eot");
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/icons/gcds-icons.ttf")
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/icons/gcds-icons.woff") format("woff"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/icons/gcds-icons.svg") format("svg");
+    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff") format("woff"),
+    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
