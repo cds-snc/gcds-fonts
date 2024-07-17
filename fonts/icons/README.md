@@ -40,6 +40,10 @@ To use GC Design System icons in your project, place the following code in your 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-checkmark-circle:before {
+  content: "\e908";
+}
+
 .icon-chevron-down:before {
   content: "\e900";
 }
@@ -56,60 +60,40 @@ To use GC Design System icons in your project, place the following code in your 
   content: "\e903";
 }
 
-.icon-external:before {
-  content: "\e904";
-}
-
-.icon-email:before {
-  content: "\e905";
+.icon-close:before {
+  content: "\e90b";
 }
 
 .icon-download:before {
   content: "\e906";
 }
 
-.icon-warning-triangle-outline:before {
-  content: "\e907";
+.icon-email:before {
+  content: "\e905";
 }
 
-.icon-search:before {
-  content: "\e908";
-}
-
-.icon-checkmark-circle-solid:before {
+.icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-exclamation-circle-solid:before {
+.icon-external:before {
+  content: "\e904";
+}
+
+.icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-information-circle-solid:before {
-  content: "\e90b";
-}
-
-.icon-close:before {
+.icon-phone:before {
   content: "\e90c";
 }
 
-.icon-phone:before {
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-warning-triangle:before {
   content: "\e90d";
-}
-
-.icon-warning-triangle-solid:before {
-  content: "\e90e";
-}
-
-.icon-checkmark-circle-outline:before {
-  content: "\e90f";
-}
-
-.icon-exclamation-circle-outline:before {
-  content: "\e910";
-}
-
-.icon-information-circle-outline:before {
-  content: "\e911";
 }
 ```
 
@@ -131,8 +115,9 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
       format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff") format("woff"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg") format("svg");
+    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -152,6 +137,10 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-checkmark-circle:before {
+  content: "\e908";
+}
+
 .icon-chevron-down:before {
   content: "\e900";
 }
@@ -168,60 +157,40 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   content: "\e903";
 }
 
-.icon-external:before {
-  content: "\e904";
-}
-
-.icon-email:before {
-  content: "\e905";
+.icon-close:before {
+  content: "\e90b";
 }
 
 .icon-download:before {
   content: "\e906";
 }
 
-.icon-warning-triangle-outline:before {
-  content: "\e907";
+.icon-email:before {
+  content: "\e905";
 }
 
-.icon-search:before {
-  content: "\e908";
-}
-
-.icon-checkmark-circle-solid:before {
+.icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-exclamation-circle-solid:before {
+.icon-external:before {
+  content: "\e904";
+}
+
+.icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-information-circle-solid:before {
-  content: "\e90b";
-}
-
-.icon-close:before {
+.icon-phone:before {
   content: "\e90c";
 }
 
-.icon-phone:before {
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-warning-triangle:before {
   content: "\e90d";
-}
-
-.icon-warning-triangle-solid:before {
-  content: "\e90e";
-}
-
-.icon-checkmark-circle-outline:before {
-  content: "\e90f";
-}
-
-.icon-exclamation-circle-outline:before {
-  content: "\e910";
-}
-
-.icon-information-circle-outline:before {
-  content: "\e911";
 }
 ```
 

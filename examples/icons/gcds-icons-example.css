@@ -24,6 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-checkmark-circle:before {
+  content: "\e908";
+}
+
 .icon-chevron-down:before {
   content: "\e900";
 }
@@ -40,58 +44,38 @@
   content: "\e903";
 }
 
-.icon-external:before {
-  content: "\e904";
-}
-
-.icon-email:before {
-  content: "\e905";
+.icon-close:before {
+  content: "\e90b";
 }
 
 .icon-download:before {
   content: "\e906";
 }
 
-.icon-warning-triangle-outline:before {
-  content: "\e907";
+.icon-email:before {
+  content: "\e905";
 }
 
-.icon-search:before {
-  content: "\e908";
-}
-
-.icon-checkmark-circle-solid:before {
+.icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-exclamation-circle-solid:before {
+.icon-external:before {
+  content: "\e904";
+}
+
+.icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-information-circle-solid:before {
-  content: "\e90b";
-}
-
-.icon-close:before {
+.icon-phone:before {
   content: "\e90c";
 }
 
-.icon-phone:before {
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-warning-triangle:before {
   content: "\e90d";
-}
-
-.icon-warning-triangle-solid:before {
-  content: "\e90e";
-}
-
-.icon-checkmark-circle-outline:before {
-  content: "\e90f";
-}
-
-.icon-exclamation-circle-outline:before {
-  content: "\e910";
-}
-
-.icon-information-circle-outline:before {
-  content: "\e911";
 }
