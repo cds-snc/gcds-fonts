@@ -1,4 +1,4 @@
-([Français](#polices-de-système-de-designgc-—-icônes))
+([Français](#polices-de-système-de-design-gc--icônes))
 
 # GC Design System Fonts - Icons
 
