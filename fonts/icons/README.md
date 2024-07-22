@@ -1,3 +1,5 @@
+([Français](#polices-de-système-de-designgc-—-icônes))
+
 # GC Design System Fonts - Icons
 
 GC Design System Fonts - Icons is a custom icon font created for the GC Design System. Icon fonts provide scalable vector icons that enhance performance, maintain consistency, and offer easy customization through CSS. Icons are used for visual communication that helps a person understand context.
@@ -211,3 +213,219 @@ If you want to use the close icon, for example, you need to add the class `icon-
 ## Example
 
 Open the [icons overview]() to see a list of all available GC Design System icons. You can find the code for the icons overview page in the [examples folder](https://github.com/cds-snc/gcds-fonts/tree/main/examples/icons).
+
+---
+
+# Polices de Système de design GC — Icônes
+
+Polices de Système de design GC — Icônes est une police d'icônes sur mesure créée pour Système de design GC. Les polices d'icônes fournissent des icônes vectorielles redimensionnables qui améliorent la performance, assurent l'uniformité et offrent une personnalisation facile par le biais de CSS. Les icônes sont utilisées pour communiquer visuellement et aider les gens à comprendre le contexte.
+
+Pour éviter de recourir à une bibliothèque d'icônes tierce (Font Awesome), nous avons créé une police d'icônes sur mesure. Nous pouvons ainsi mieux contrôler les icônes mises à la disposition des utilisatrices et utilisateurs de Système de design GC. Font Awesome fournit une vaste collection d'icônes, dont la plupart ne seront pas utilisées pour nos composants. En limitant la quantité d'icônes disponibles, nous visons à prévenir les mauvais usages et à fournir des directives claires sur l'usage approprié de chaque icône.
+
+## Installation
+
+### Installer la police d'icônes avec le CDN
+
+Pour utiliser les icônes de Système de design GC dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-icons.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/icons/gcds-icons.css) dans votre projet :
+
+```css
+<!-- Polices de Système de design GC — Icônes -->
+@font-face {
+  font-family: "gcds-icons";
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.ttf")
+      format("truetype"),
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "gcds-icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark-circle:before {
+  content: "\e908";
+}
+
+.icon-chevron-down:before {
+  content: "\e900";
+}
+
+.icon-chevron-left:before {
+  content: "\e901";
+}
+
+.icon-chevron-right:before {
+  content: "\e902";
+}
+
+.icon-chevron-up:before {
+  content: "\e903";
+}
+
+.icon-close:before {
+  content: "\e90b";
+}
+
+.icon-download:before {
+  content: "\e906";
+}
+
+.icon-email:before {
+  content: "\e905";
+}
+
+.icon-exclamation-circle:before {
+  content: "\e909";
+}
+
+.icon-external:before {
+  content: "\e904";
+}
+
+.icon-information-circle:before {
+  content: "\e90a";
+}
+
+.icon-phone:before {
+  content: "\e90c";
+}
+
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-warning-triangle:before {
+  content: "\e90d";
+}
+```
+
+### Installer la police d'icônes avec npm
+
+Naviguez jusqu'au dossier racine de votre projet et exécutez :
+
+```js
+npm install @cdssnc/gcds-fonts
+```
+
+Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
+
+```css
+<!-- Polices de Système de design GC — Icônes -->
+@font-face {
+  font-family: "gcds-icons";
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
+      format("truetype"),
+    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "gcds-icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark-circle:before {
+  content: "\e908";
+}
+
+.icon-chevron-down:before {
+  content: "\e900";
+}
+
+.icon-chevron-left:before {
+  content: "\e901";
+}
+
+.icon-chevron-right:before {
+  content: "\e902";
+}
+
+.icon-chevron-up:before {
+  content: "\e903";
+}
+
+.icon-close:before {
+  content: "\e90b";
+}
+
+.icon-download:before {
+  content: "\e906";
+}
+
+.icon-email:before {
+  content: "\e905";
+}
+
+.icon-exclamation-circle:before {
+  content: "\e909";
+}
+
+.icon-external:before {
+  content: "\e904";
+}
+
+.icon-information-circle:before {
+  content: "\e90a";
+}
+
+.icon-phone:before {
+  content: "\e90c";
+}
+
+.icon-search:before {
+  content: "\e907";
+}
+
+.icon-warning-triangle:before {
+  content: "\e90d";
+}
+```
+
+## Comment utiliser les icônes
+
+Ouvrez l'[aperçu des icônes]() pour afficher la liste de toutes les icônes de Système de design GC disponibles et trouver le nom de classe de l'icône que vous souhaitez utiliser. Appliquez la classe à n'importe quel élément HTML auquel vous voulez ajouter l'icône. Remplacez `icon-name` par le nom de classe de l'icône que vous souhaitez utiliser.
+
+```html
+<span class="icon-name"></span>
+```
+
+Si vous voulez utiliser l'icône « fermer », par exemple, vous devez ajouter la classe `icon-close` :
+
+```html
+<span class="icon-close"></span>
+```
+
+## Exemple
+
+Ouvrez l'[aperçu des icônes]() pour afficher la liste de toutes les icônes de Système de design GC disponibles. Vous trouverez le code accompagnant l'aperçu des icônes dans le dossier [exemples](https://github.com/cds-snc/gcds-fonts/tree/main/examples/icons).
