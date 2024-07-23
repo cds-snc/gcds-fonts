@@ -14,8 +14,8 @@
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "gcds-icons" !important;
   speak: never;
@@ -28,74 +28,74 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-chevron-down:before {
+.gcds-icon-chevron-down:before {
   content: "\e900";
 }
 
-.icon-chevron-left:before {
+.gcds-icon-chevron-left:before {
   content: "\e901";
 }
 
-.icon-chevron-right:before {
+.gcds-icon-chevron-right:before {
   content: "\e902";
 }
 
-.icon-chevron-up:before {
+.gcds-icon-chevron-up:before {
   content: "\e903";
 }
 
-.icon-external:before {
+.gcds-icon-external:before {
   content: "\e904";
 }
 
-.icon-email:before {
+.gcds-icon-email:before {
   content: "\e905";
 }
 
-.icon-download:before {
+.gcds-icon-download:before {
   content: "\e906";
 }
 
-.icon-warning-triangle-outline:before {
+.gcds-icon-warning-triangle-outline:before {
   content: "\e907";
 }
 
-.icon-search:before {
+.gcds-icon-search:before {
   content: "\e908";
 }
 
-.icon-checkmark-circle-solid:before {
+.gcds-icon-checkmark-circle-solid:before {
   content: "\e909";
 }
 
-.icon-exclamation-circle-solid:before {
+.gcds-icon-exclamation-circle-solid:before {
   content: "\e90a";
 }
 
-.icon-information-circle-solid:before {
+.gcds-icon-information-circle-solid:before {
   content: "\e90b";
 }
 
-.icon-close:before {
+.gcds-icon-close:before {
   content: "\e90c";
 }
 
-.icon-phone:before {
+.gcds-icon-phone:before {
   content: "\e90d";
 }
 
-.icon-warning-triangle-solid:before {
+.gcds-icon-warning-triangle-solid:before {
   content: "\e90e";
 }
 
-.icon-checkmark-circle-outline:before {
+.gcds-icon-checkmark-circle-outline:before {
   content: "\e90f";
 }
 
-.icon-exclamation-circle-outline:before {
+.gcds-icon-exclamation-circle-outline:before {
   content: "\e910";
 }
 
-.icon-information-circle-outline:before {
+.gcds-icon-information-circle-outline:before {
   content: "\e911";
 }

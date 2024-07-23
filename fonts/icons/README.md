@@ -28,8 +28,8 @@ To use GC Design System icons in your project, place the following code in your 
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "gcds-icons" !important;
   speak: never;
@@ -42,59 +42,59 @@ To use GC Design System icons in your project, place the following code in your 
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-checkmark-circle:before {
+.gcds-icon-checkmark-circle:before {
   content: "\e908";
 }
 
-.icon-chevron-down:before {
+.gcds-icon-chevron-down:before {
   content: "\e900";
 }
 
-.icon-chevron-left:before {
+.gcds-icon-chevron-left:before {
   content: "\e901";
 }
 
-.icon-chevron-right:before {
+.gcds-icon-chevron-right:before {
   content: "\e902";
 }
 
-.icon-chevron-up:before {
+.gcds-icon-chevron-up:before {
   content: "\e903";
 }
 
-.icon-close:before {
+.gcds-icon-close:before {
   content: "\e90b";
 }
 
-.icon-download:before {
+.gcds-icon-download:before {
   content: "\e906";
 }
 
-.icon-email:before {
+.gcds-icon-email:before {
   content: "\e905";
 }
 
-.icon-exclamation-circle:before {
+.gcds-icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-external:before {
+.gcds-icon-external:before {
   content: "\e904";
 }
 
-.icon-information-circle:before {
+.gcds-icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-phone:before {
+.gcds-icon-phone:before {
   content: "\e90c";
 }
 
-.icon-search:before {
+.gcds-icon-search:before {
   content: "\e907";
 }
 
-.icon-warning-triangle:before {
+.gcds-icon-warning-triangle:before {
   content: "\e90d";
 }
 ```
@@ -125,8 +125,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "gcds-icons" !important;
   speak: never;
@@ -139,75 +139,75 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-checkmark-circle:before {
+.gcds-icon-checkmark-circle:before {
   content: "\e908";
 }
 
-.icon-chevron-down:before {
+.gcds-icon-chevron-down:before {
   content: "\e900";
 }
 
-.icon-chevron-left:before {
+.gcds-icon-chevron-left:before {
   content: "\e901";
 }
 
-.icon-chevron-right:before {
+.gcds-icon-chevron-right:before {
   content: "\e902";
 }
 
-.icon-chevron-up:before {
+.gcds-icon-chevron-up:before {
   content: "\e903";
 }
 
-.icon-close:before {
+.gcds-icon-close:before {
   content: "\e90b";
 }
 
-.icon-download:before {
+.gcds-icon-download:before {
   content: "\e906";
 }
 
-.icon-email:before {
+.gcds-icon-email:before {
   content: "\e905";
 }
 
-.icon-exclamation-circle:before {
+.gcds-icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-external:before {
+.gcds-icon-external:before {
   content: "\e904";
 }
 
-.icon-information-circle:before {
+.gcds-icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-phone:before {
+.gcds-icon-phone:before {
   content: "\e90c";
 }
 
-.icon-search:before {
+.gcds-icon-search:before {
   content: "\e907";
 }
 
-.icon-warning-triangle:before {
+.gcds-icon-warning-triangle:before {
   content: "\e90d";
 }
 ```
 
 ## How to use icons
 
-Open the [icons overview]() to see a list of all available GC Design System icons and find the icon class name of the icon you want to use. Apply the class to any HTML element where you want the icon to appear. Replace `icon-name` with the specific class name for the icon you want to use.
+Open the [icons overview]() to see a list of all available GC Design System icons and find the icon class name of the icon you want to use. Apply the class to any HTML element where you want the icon to appear. Replace `gcds-icon-name` with the specific class name for the icon you want to use.
 
 ```html
-<span class="icon-name"></span>
+<span class="gcds-icon-name"></span>
 ```
 
-If you want to use the close icon, for example, you need to add the class `icon-close`:
+If you want to use the close icon, for example, you need to add the class `gcds-icon-close`:
 
 ```html
-<span class="icon-close"></span>
+<span class="gcds-icon-close"></span>
 ```
 
 ## Example
@@ -244,8 +244,8 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "gcds-icons" !important;
   speak: never;
@@ -258,59 +258,59 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-checkmark-circle:before {
+.gcds-icon-checkmark-circle:before {
   content: "\e908";
 }
 
-.icon-chevron-down:before {
+.gcds-icon-chevron-down:before {
   content: "\e900";
 }
 
-.icon-chevron-left:before {
+.gcds-icon-chevron-left:before {
   content: "\e901";
 }
 
-.icon-chevron-right:before {
+.gcds-icon-chevron-right:before {
   content: "\e902";
 }
 
-.icon-chevron-up:before {
+.gcds-icon-chevron-up:before {
   content: "\e903";
 }
 
-.icon-close:before {
+.gcds-icon-close:before {
   content: "\e90b";
 }
 
-.icon-download:before {
+.gcds-icon-download:before {
   content: "\e906";
 }
 
-.icon-email:before {
+.gcds-icon-email:before {
   content: "\e905";
 }
 
-.icon-exclamation-circle:before {
+.gcds-icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-external:before {
+.gcds-icon-external:before {
   content: "\e904";
 }
 
-.icon-information-circle:before {
+.gcds-icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-phone:before {
+.gcds-icon-phone:before {
   content: "\e90c";
 }
 
-.icon-search:before {
+.gcds-icon-search:before {
   content: "\e907";
 }
 
-.icon-warning-triangle:before {
+.gcds-icon-warning-triangle:before {
   content: "\e90d";
 }
 ```
@@ -341,8 +341,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "gcds-icons" !important;
   speak: never;
@@ -355,75 +355,75 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-checkmark-circle:before {
+.gcds-icon-checkmark-circle:before {
   content: "\e908";
 }
 
-.icon-chevron-down:before {
+.gcds-icon-chevron-down:before {
   content: "\e900";
 }
 
-.icon-chevron-left:before {
+.gcds-icon-chevron-left:before {
   content: "\e901";
 }
 
-.icon-chevron-right:before {
+.gcds-icon-chevron-right:before {
   content: "\e902";
 }
 
-.icon-chevron-up:before {
+.gcds-icon-chevron-up:before {
   content: "\e903";
 }
 
-.icon-close:before {
+.gcds-icon-close:before {
   content: "\e90b";
 }
 
-.icon-download:before {
+.gcds-icon-download:before {
   content: "\e906";
 }
 
-.icon-email:before {
+.gcds-icon-email:before {
   content: "\e905";
 }
 
-.icon-exclamation-circle:before {
+.gcds-icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.icon-external:before {
+.gcds-icon-external:before {
   content: "\e904";
 }
 
-.icon-information-circle:before {
+.gcds-icon-information-circle:before {
   content: "\e90a";
 }
 
-.icon-phone:before {
+.gcds-icon-phone:before {
   content: "\e90c";
 }
 
-.icon-search:before {
+.gcds-icon-search:before {
   content: "\e907";
 }
 
-.icon-warning-triangle:before {
+.gcds-icon-warning-triangle:before {
   content: "\e90d";
 }
 ```
 
 ## Comment utiliser les icônes
 
-Ouvrez l'[aperçu des icônes]() pour afficher la liste de toutes les icônes de Système de design GC disponibles et trouver le nom de classe de l'icône que vous souhaitez utiliser. Appliquez la classe à n'importe quel élément HTML auquel vous voulez ajouter l'icône. Remplacez `icon-name` par le nom de classe de l'icône que vous souhaitez utiliser.
+Ouvrez l'[aperçu des icônes]() pour afficher la liste de toutes les icônes de Système de design GC disponibles et trouver le nom de classe de l'icône que vous souhaitez utiliser. Appliquez la classe à n'importe quel élément HTML auquel vous voulez ajouter l'icône. Remplacez `gcds-icon-name` par le nom de classe de l'icône que vous souhaitez utiliser.
 
 ```html
-<span class="icon-name"></span>
+<span class="gcds-icon-name"></span>
 ```
 
-Si vous voulez utiliser l'icône « fermer », par exemple, vous devez ajouter la classe `icon-close` :
+Si vous voulez utiliser l'icône « fermer », par exemple, vous devez ajouter la classe `gcds-icon-close` :
 
 ```html
-<span class="icon-close"></span>
+<span class="gcds-icon-close"></span>
 ```
 
 ## Exemple
