@@ -11,7 +11,7 @@ GC Design System paragraphs and other, non-heading text use the font `Noto Sans`
 To use the GC Design System font `Noto Sans` in your project, place the following code in your CSS or include the [gcds-noto-sans.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/noto-sans/gcds-noto-sans.css) file in your project:
 
 ```css
-<!-- GC Design System Fonts - Noto Sans -- >
+<!-- GC Design System Fonts - Noto Sans -->
 @font-face {
   font-family: "Noto Sans";
   src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans/gcds-noto-sans-light.woff2")
