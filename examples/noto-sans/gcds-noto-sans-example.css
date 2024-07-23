@@ -94,22 +94,22 @@ body {
 }
 
 /* Example CSS classes to show different font weights */
-.noto-sans-light {
+.gcds-noto-sans-light {
   font-weight: 300;
 }
 
-.noto-sans-regular {
+.gcds-noto-sans-regular {
   font-weight: 400;
 }
 
-.noto-sans-medium {
+.gcds-noto-sans-medium {
   font-weight: 500;
 }
 
-.noto-sans-semibold {
+.gcds-noto-sans-semibold {
   font-weight: 600;
 }
 
-.noto-sans-bold {
+.gcds-noto-sans-bold {
   font-weight: 700;
 }
