@@ -2,13 +2,13 @@
 
 # GC Design System Fonts - Lato
 
-GC Design System headings use the font `Lato`.
+GC Design System headings use the open-source font `Lato`.
 
 ## Installation
 
 ### Install `Lato` font with CDN
 
-To use the GC Design System font `Lato` in your project, place the following code in your CSS or include the [gcds-lato.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/lato/gcds-lato.css) file in your project:
+To use the `Lato` font in your project, place the following code in your CSS or include the [gcds-lato.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/lato/gcds-lato.css) file in your project:
 
 ```css
 <!-- GC Design System Fonts - Lato -->
@@ -86,19 +86,19 @@ h6 {
 
 ## Example
 
-Open the [`Lato` example]() to see a list of all heading levels using the GC Design System `Lato` font. You can find the code for the `Lato` example page in the [examples folder](https://github.com/cds-snc/gcds-fonts/tree/main/examples/lato).
+Open the [`Lato` example]() to see a list of all heading levels using the `Lato` font. You can find the code for the `Lato` example page in the [examples folder](https://github.com/cds-snc/gcds-fonts/tree/main/examples/lato).
 
 ---
 
 # Polices de Système de design GC — Lato
 
-Les titres de Système de design GC utilisent la police `Lato`.
+Les titres de Système de design GC utilisent la police à source ouverte `Lato`.
 
 ## Installation
 
 ### Installer la police `Lato` avec le CDN
 
-Pour utiliser la police `Lato` de Système de design GC dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-lato.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/lato/gcds-lato.css) dans votre projet :
+Pour utiliser la police `Lato` dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-lato.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/lato/gcds-lato.css) dans votre projet :
 
 ```css
 <!-- Polices de Système de design GC — Lato -->
@@ -176,4 +176,4 @@ h6 {
 
 ## Exemple
 
-Ouvrez l'[exemple `Lato`]() pour afficher la liste de tous les niveaux de titre utilisant la police `Lato` de Système de design GC. Vous trouverez le code accompagnant l'exemple `Lato` dans le dossier [exemples](https://github.com/cds-snc/gcds-fonts/tree/main/examples/lato).
+Ouvrez l'[exemple `Lato`]() pour afficher la liste de tous les niveaux de titre utilisant la police `Lato`. Vous trouverez le code accompagnant l'exemple `Lato` dans le dossier [exemples](https://github.com/cds-snc/gcds-fonts/tree/main/examples/lato).

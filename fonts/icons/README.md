@@ -1,8 +1,8 @@
 ([Français](#polices-de-système-de-design-gc--icônes))
 
-# GC Design System Fonts - Icons
+# GC Design System Fonts - GCDS Icons
 
-GC Design System Fonts - Icons is a custom icon font created for the GC Design System. Icon fonts provide scalable vector icons that enhance performance, maintain consistency, and offer easy customization through CSS. Icons are used for visual communication that helps a person understand context.
+GC Design System Fonts - GCDS Icons is a custom icon font created for the GC Design System. Icon fonts provide scalable vector icons that enhance performance, maintain consistency, and offer easy customization through CSS. Icons are used for visual communication that helps a person understand context.
 
 To remove the reliance on a third-party icon library (Font Awesome) we built a custom icon font. This also provides the GC Design System with more control over icons available to users. FontAwesome provides an extensive collection of icons, most of which will not be used for our components. By limiting the scope of available icons, we aim to prevent misuse and provide clear guidelines on the appropriate usage of each icon.
 
@@ -216,9 +216,9 @@ Open the [icons overview]() to see a list of all available GC Design System icon
 
 ---
 
-# Polices de Système de design GC — Icônes
+# Polices de Système de design GC — GCDS Icônes
 
-Polices de Système de design GC — Icônes est une police d'icônes sur mesure créée pour Système de design GC. Les polices d'icônes fournissent des icônes vectorielles redimensionnables qui améliorent la performance, assurent l'uniformité et offrent une personnalisation facile par le biais de CSS. Les icônes sont utilisées pour communiquer visuellement et aider les gens à comprendre le contexte.
+Polices de Système de design GC — GCDS Icônes est une police d'icônes sur mesure créée pour Système de design GC. Les polices d'icônes fournissent des icônes vectorielles redimensionnables qui améliorent la performance, assurent l'uniformité et offrent une personnalisation facile par le biais de CSS. Les icônes sont utilisées pour communiquer visuellement et aider les gens à comprendre le contexte.
 
 Pour éviter de recourir à une bibliothèque d'icônes tierce (Font Awesome), nous avons créé une police d'icônes sur mesure. Nous pouvons ainsi mieux contrôler les icônes mises à la disposition des utilisatrices et utilisateurs de Système de design GC. Font Awesome fournit une vaste collection d'icônes, dont la plupart ne seront pas utilisées pour nos composants. En limitant la quantité d'icônes disponibles, nous visons à prévenir les mauvais usages et à fournir des directives claires sur l'usage approprié de chaque icône.
 
