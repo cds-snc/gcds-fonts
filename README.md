@@ -6,10 +6,10 @@ GC Design System Fonts provides the fonts used within GC Design System. Below ar
 
 | Font           | Description                                                                                     | Readme                                    |
 | -------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| GCDS Icons     | Use the font <GCDS Icons> for any icons.                                                        | [Readme](/fonts/icons/README.md)          |
-| Lato           | Use the font <Lato> for headings only. Any other text should use the font <Noto Sans>.          | [Readme](/fonts/lato/README.md)           |
-| Noto Sans      | Use the font <Noto Sans> for most text.                                                         | [Readme](/fonts/noto-sans/README.md)      |
-| Noto Sans Mono | Opt to use the monospace font <Noto Sans Mono> when citing code to give specific code examples. | [Readme](/fonts/noto-sans-mono/README.md) |
+| GCDS Icons     | Use the font `GCDS Icons` for any icons.                                                        | [Readme](/fonts/icons/README.md)          |
+| Lato           | Use the font `Lato` for headings only. Any other text should use the font `Noto Sans`.          | [Readme](/fonts/lato/README.md)           |
+| Noto Sans      | Use the font `Noto Sans` for most text.                                                         | [Readme](/fonts/noto-sans/README.md)      |
+| Noto Sans Mono | Opt to use the monospace font `Noto Sans Mono` when citing code to give specific code examples. | [Readme](/fonts/noto-sans-mono/README.md) |
 
 ## Installation
 
