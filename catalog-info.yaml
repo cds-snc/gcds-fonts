@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gcds-fonts
+  description: GC Design System Fonts provides the fonts used within GC Design System.
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cds-snc
