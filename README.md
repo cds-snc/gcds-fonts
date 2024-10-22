@@ -21,10 +21,6 @@ You can find the installation instructions for each font in the above table unde
 
 If you are interested in contributing to GC Design System Fonts, please read our [contributing guidelines](https://github.com/cds-snc/gcds-fonts/blob/main/CONTRIBUTING.md).
 
-## License
-
-Code released under the [MIT License](https://github.com/cds-snc/gcds-fonts/blob/main/LICENSE.md).
-
 ---
 
 # Polices de Système de design GC
@@ -47,7 +43,3 @@ Vous trouverez les instructions d’installation relatives à chaque police dans
 ## Comment contribuer
 
 Si vous souhaitez contribuer aux polices de Système de design GC, veuillez lire nos [lignes directrices sur les contributions](https://github.com/cds-snc/gcds-fonts/blob/main/CONTRIBUTING.md#comment-contribuer).
-
-## Licence
-
-Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-fonts/blob/main/LICENSE.md).
