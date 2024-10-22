@@ -6,12 +6,12 @@ GC Design System Fonts provides the fonts used within GC Design System. Below ar
 
 ## Fonts
 
-| Font           | Description                                                                                     | Readme                                    |
-| -------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| GCDS Icons     | Use the font `GCDS Icons` for any icons.                                                        | [Readme](/fonts/icons/README.md)          |
-| Lato           | Use the font `Lato` for headings only. Any other text should use the font `Noto Sans`.          | [Readme](/fonts/lato/README.md)           |
-| Noto Sans      | Use the font `Noto Sans` for most text.                                                         | [Readme](/fonts/noto-sans/README.md)      |
-| Noto Sans Mono | Opt to use the monospace font `Noto Sans Mono` when citing code to give specific code examples. | [Readme](/fonts/noto-sans-mono/README.md) |
+| Font           | Description                                                                                     | Readme                                    | License                                      |
+| -------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------- |
+| GCDS Icons     | Use the font `GCDS Icons` for any icons.                                                        | [Readme](/fonts/icons/README.md)          | [License](/fonts/icons/LICENSE.txt)          |
+| Lato           | Use the font `Lato` for headings only. Any other text should use the font `Noto Sans`.          | [Readme](/fonts/lato/README.md)           | [License](/fonts/lato/LICENSE.txt)           |
+| Noto Sans      | Use the font `Noto Sans` for most text.                                                         | [Readme](/fonts/noto-sans/README.md)      | [License](/fonts/noto-sans/LICENSE.txt)      |
+| Noto Sans Mono | Opt to use the monospace font `Noto Sans Mono` when citing code to give specific code examples.  | [Readme](/fonts/noto-sans-mono/README.md) | [License](/fonts/noto-sans-mono/LICENSE.txt) |
 
 ## Installation
 
@@ -21,10 +21,6 @@ You can find the installation instructions for each font in the above table unde
 
 If you are interested in contributing to GC Design System Fonts, please read our [contributing guidelines](https://github.com/cds-snc/gcds-fonts/blob/main/CONTRIBUTING.md).
 
-## License
-
-Code released under the [MIT License](https://github.com/cds-snc/gcds-fonts/blob/main/LICENSE.md).
-
 ---
 
 # Polices de Système de design GC
@@ -33,12 +29,12 @@ Polices de Système de design GC fournit les polices utilisées dans Système de
 
 ## Polices
 
-| Police         | Description                                                                                                                    | Lisez-moi                                    |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| GCDS Icons     | Utilisez la police `GCDS Icons` pour toute icône.                                                                              | [Lisez-moi](/fonts/icons/README.md)          |
-| Lato           | Utilisez la police `Lato` pour les titres seulement. Tous les autres éléments textuels doivent utiliser la police `Noto Sans`. | [Lisez-moi](/fonts/lato/README.md)           |
-| Noto Sans      | Utilisez la police `Noto Sans` pour la plupart des éléments textuels.                                                          | [Lisez-moi](/fonts/noto-sans/README.md)      |
-| Noto Sans Mono | Lorsque vous donnez des exemples de code, citez-les en utilisant la police à espacement fixe `Noto Sans Mono`.                 | [Lisez-moi](/fonts/noto-sans-mono/README.md) |
+| Police         | Description                                                                                                                    | Lisez-moi                                    | Licence                                      |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | -------------------------------------------- |
+| GCDS Icons     | Utilisez la police `GCDS Icons` pour toute icône.                                                                              | [Lisez-moi](/fonts/icons/README.md)          | [Licence](/fonts/icons/LICENSE.txt)          |
+| Lato           | Utilisez la police `Lato` pour les titres seulement. Tous les autres éléments textuels doivent utiliser la police `Noto Sans`. | [Lisez-moi](/fonts/lato/README.md)           | [Licence](/fonts/lato/LICENSE.txt)           |
+| Noto Sans      | Utilisez la police `Noto Sans` pour la plupart des éléments textuels.                                                          | [Lisez-moi](/fonts/noto-sans/README.md)      | [Licence](/fonts/noto-sans/LICENSE.txt)      |
+| Noto Sans Mono | Lorsque vous donnez des exemples de code, citez-les en utilisant la police à espacement fixe `Noto Sans Mono`.                  | [Lisez-moi](/fonts/noto-sans-mono/README.md) | [Licence](/fonts/noto-sans-mono/LICENSE.txt) |
 
 ## Installation
 
@@ -47,7 +43,3 @@ Vous trouverez les instructions d’installation relatives à chaque police dans
 ## Comment contribuer
 
 Si vous souhaitez contribuer aux polices de Système de design GC, veuillez lire nos [lignes directrices sur les contributions](https://github.com/cds-snc/gcds-fonts/blob/main/CONTRIBUTING.md#comment-contribuer).
-
-## Licence
-
-Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-fonts/blob/main/LICENSE.md).
