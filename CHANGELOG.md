@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.1.0...gcds-fonts-v0.2.0) (2024-10-22)
+
+
+### :rocket: New Features
+
+* add french translation for fonts readme ([#27](https://github.com/cds-snc/gcds-fonts/issues/27)) ([1d553f9](https://github.com/cds-snc/gcds-fonts/commit/1d553f9b5395f7591bbc12cfd0ccea308c64eea7))
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* updates after legal review ([#38](https://github.com/cds-snc/gcds-fonts/issues/38)) ([fdae45f](https://github.com/cds-snc/gcds-fonts/commit/fdae45fe847111ad768deb74c57afa7b9323dab9))
+
 ## 0.1.0
 
 Released on: 2024-07-24
