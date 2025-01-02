@@ -64,8 +64,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -73,8 +73,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;
@@ -162,8 +162,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -171,8 +171,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;

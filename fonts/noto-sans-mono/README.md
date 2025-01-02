@@ -18,8 +18,8 @@ To use the `Noto Sans Mono` font in your project, place the following code in yo
 <!-- GC Design System Fonts - Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -49,8 +49,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -86,8 +86,8 @@ Pour utiliser la police `Noto Sans Mono` dans votre projet, placez le code suiva
 <!-- Polices de Système de design GC — Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -117,8 +117,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts@1.0.0/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
