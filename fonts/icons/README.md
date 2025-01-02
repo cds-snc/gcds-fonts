@@ -10,18 +10,22 @@ To remove the reliance on a third-party icon library (Font Awesome) we built a c
 
 ### Install icon font with CDN
 
-To use GC Design System icons in your project, place the following code in your CSS or include the [gcds-icons.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/icons/gcds-icons.css) file in your project:
+#### Add the code
+
+Use the latest version of GC Design System icons. Pinned versions provide stability and predictability because the code will remain consistent and won't change unexpectedly, which can be crucial for maintaining the stability of an application. However, it requires manual updating of the CDN links whenever a newer version of GC Design System icons is released.
+
+To use GC Design System icons in your project, place the following code in your CSS or include the [gcds-icons.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/icons/gcds-icons.css) file in your project. Replace `<version-number>` with the latest version number to receive corresponding updates.
 
 ```css
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -98,6 +102,10 @@ To use GC Design System icons in your project, place the following code in your 
   content: "\e90d";
 }
 ```
+
+#### Automatic updates using `@latest`
+
+Use the `@latest` version of GC Design System icons to receive automatic updates whenever a new version is released. **While it removes the need to manually update the CDN links, it adds the risk of introducing breaking changes to the codebase as new versions are automatically applied**.
 
 ### Install icon font with npm
 
@@ -226,18 +234,22 @@ Pour éviter de recourir à une bibliothèque d'icônes tierce (Font Awesome), n
 
 ### Installer la police d'icônes avec le CDN
 
-Pour utiliser les icônes de Système de design GC dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-icons.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/icons/gcds-icons.css) dans votre projet :
+#### Ajoutez le code
+
+Utilisez la version la plus récente de icônes de Système de design GC. Les versions épinglées offrent stabilité et prévisibilité parce que le code ne changera pas de manière inattendue, ce qui peut être crucial pour maintenir la stabilité d'une application. Toutefois, il faut mettre à jour manuellement les liens CDN chaque fois qu'une version plus récente de icônes de Système de design GC est publiée.
+
+Pour utiliser les icônes de Système de design GC dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-icons.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/icons/gcds-icons.css) dans votre projet. Remplacez `<version-number>` par le numéro de version le plus récent pour recevoir les mises à jour correspondantes.
 
 ```css
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@1.0.0/fonts/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -314,6 +326,10 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
   content: "\e90d";
 }
 ```
+
+#### Mises à jour automatiques grâce à `@latest`
+
+Utilisez la version `@latest` de icônes de Système de design GC pour recevoir des mises à jour automatiques chaque fois qu'une nouvelle version est publiée. **Bien que cette approche vous évite la mise à jour manuelle des liens CDN, elle court le risque d'introduire des modifications qui entraînent une rupture de compatibilité avec le code base à mesure que les nouvelles versions sont automatiquement appliquées**.
 
 ### Installer la police d'icônes avec npm
 
