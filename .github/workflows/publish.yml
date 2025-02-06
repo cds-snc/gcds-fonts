@@ -1,0 +1,64 @@
+name: Publish
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'package.json'
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  CDN_BUCKET: gc-design-system-production-cdn
+  CDN_REGION: ca-central-1
+  PACKAGE_NAME: '@cdssnc/gcds-fonts'
+
+jobs:
+  build-deploy:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+
+      - name: Publish @cdssnc/gcds-fonts to npm
+        uses: JS-DevTools/npm-publish@e06fe3ef65499b38eb12224f2a60979f6d797330
+        id: publish
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+
+      - name: Configure AWS credentials using OIDC
+        if: steps.publish.outputs.id != ''
+        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
+        with:
+          role-to-assume: arn:aws:iam::307395567143:role/gcds-fonts-apply
+          role-session-name: CDNPublish
+          aws-region: ${{ env.CDN_REGION }}
+
+      - name: Update CDN
+        if: steps.publish.outputs.id != ''
+        run: |
+          VERSION="$(cat package.json | jq -r .version)"
+          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
+
+          aws s3 sync ./ s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/ --delete
+          aws s3 sync ./ s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/ --delete
+
+          # Check if specific files exist in the root of the CDN bucket for both the versioned and latest paths
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/package.json
+
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
+
+      - name: Report deployment to Sentinel
+        if: steps.publish.outputs.id != ''
+        uses: cds-snc/sentinel-forward-data-action@main
+        with:
+          input_data: '{"product": "design-system", "sha": "${{ github.sha }}", "version": "${{steps.publish.outputs.id}}", "repository": "${{ github.repository }}", "environment": "production", "status": "${{ job.status }}"}'
+          log_type: CDS_Product_Deployment_Data
+          log_analytics_workspace_id: ${{ secrets.LOG_ANALYTICS_WORKSPACE_ID }}
+          log_analytics_workspace_key: ${{ secrets.LOG_ANALYTICS_WORKSPACE_KEY }}
+
