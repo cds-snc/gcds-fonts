@@ -44,8 +44,8 @@ jobs:
           VERSION="$(cat package.json | jq -r .version)"
           PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
 
-          aws s3 sync ./ s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/ --delete
-          aws s3 sync ./ s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/ --delete
+          aws s3 sync ./fonts/ s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/ --delete
+          aws s3 sync ./fonts/ s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/ --delete
 
           # Check if specific files exist in the root of the CDN bucket for both the versioned and latest paths
           aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
