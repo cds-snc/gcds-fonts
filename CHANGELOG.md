@@ -8,7 +8,6 @@
 * add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
 
 
-### :arrows_counterclockwise: Code Refactoring
 
 * updates after legal review ([#38](https://github.com/cds-snc/gcds-fonts/issues/38)) ([fdae45f](https://github.com/cds-snc/gcds-fonts/commit/fdae45fe847111ad768deb74c57afa7b9323dab9))
 
