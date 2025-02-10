@@ -6,7 +6,6 @@
 ### :rocket: New Features
 
 * add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
-* add french translation for fonts readme ([#27](https://github.com/cds-snc/gcds-fonts/issues/27)) ([1d553f9](https://github.com/cds-snc/gcds-fonts/commit/1d553f9b5395f7591bbc12cfd0ccea308c64eea7))
 * update installation instructions to match other package instructions ([#40](https://github.com/cds-snc/gcds-fonts/issues/40)) ([3073221](https://github.com/cds-snc/gcds-fonts/commit/30732219c31ff22d9154f0e42c0f2df3ed57f665))
 
 
