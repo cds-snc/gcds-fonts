@@ -9,7 +9,6 @@
 
 
 
-* updates after legal review ([#38](https://github.com/cds-snc/gcds-fonts/issues/38)) ([fdae45f](https://github.com/cds-snc/gcds-fonts/commit/fdae45fe847111ad768deb74c57afa7b9323dab9))
 
 ## 0.1.0
 
