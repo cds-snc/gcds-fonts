@@ -8,7 +8,6 @@
 * add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
 
 
-
 ## 0.1.0
 
 Released on: 2024-07-24
