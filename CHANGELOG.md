@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.1.0...gcds-fonts-v0.2.0) (2025-02-10)
+
+
+### :rocket: New Features
+
+* add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
+
 ## 0.1.0
 
 Released on: 2024-07-24
