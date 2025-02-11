@@ -42,8 +42,8 @@ jobs:
           aws s3 sync ./fonts/ s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/ --delete
 
           # Check if specific files exist in the root of the CDN bucket for both the versioned and latest paths
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/package.json
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/package.json
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/icons/gcds-icons.css
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/icons/gcds-icons.css
 
           aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
 
