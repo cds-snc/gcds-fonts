@@ -20,12 +20,12 @@ To use GC Design System icons in your project, place the following code in your 
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -244,12 +244,12 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
