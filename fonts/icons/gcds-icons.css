@@ -28,6 +28,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-checkmark-circle:before {
+  content: "\e908";
+}
+
 .gcds-icon-chevron-down:before {
   content: "\e900";
 }
@@ -44,58 +48,38 @@
   content: "\e903";
 }
 
-.gcds-icon-external:before {
-  content: "\e904";
-}
-
-.gcds-icon-email:before {
-  content: "\e905";
+.gcds-icon-close:before {
+  content: "\e90b";
 }
 
 .gcds-icon-download:before {
   content: "\e906";
 }
 
-.gcds-icon-warning-triangle-outline:before {
-  content: "\e907";
+.gcds-icon-email:before {
+  content: "\e905";
 }
 
-.gcds-icon-search:before {
-  content: "\e908";
-}
-
-.gcds-icon-checkmark-circle-solid:before {
+.gcds-icon-exclamation-circle:before {
   content: "\e909";
 }
 
-.gcds-icon-exclamation-circle-solid:before {
+.gcds-icon-external:before {
+  content: "\e904";
+}
+
+.gcds-icon-information-circle:before {
   content: "\e90a";
 }
 
-.gcds-icon-information-circle-solid:before {
-  content: "\e90b";
-}
-
-.gcds-icon-close:before {
+.gcds-icon-phone:before {
   content: "\e90c";
 }
 
-.gcds-icon-phone:before {
+.gcds-icon-search:before {
+  content: "\e907";
+}
+
+.gcds-icon-warning-triangle:before {
   content: "\e90d";
-}
-
-.gcds-icon-warning-triangle-solid:before {
-  content: "\e90e";
-}
-
-.gcds-icon-checkmark-circle-outline:before {
-  content: "\e90f";
-}
-
-.gcds-icon-exclamation-circle-outline:before {
-  content: "\e910";
-}
-
-.gcds-icon-information-circle-outline:before {
-  content: "\e911";
 }
