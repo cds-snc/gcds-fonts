@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.1](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.0...gcds-fonts-v0.2.1) 
+
+Released on: 2025-02-13
+
+
+### :bug: :wrench: Bug Fixes
+
+* update icon font installation instructions + css classes ([#48](https://github.com/cds-snc/gcds-fonts/issues/48)) ([f953f99](https://github.com/cds-snc/gcds-fonts/commit/f953f99f9deaa36347daabaaacc6a793e5897c68))
+
 ## [0.2.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.1.0...gcds-fonts-v0.2.0) (2025-02-10)
 
 
