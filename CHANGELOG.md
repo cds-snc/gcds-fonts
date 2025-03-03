@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.1...gcds-fonts-v0.2.2) (2025-03-03)
+
+
+### :bug: :wrench: Bug Fixes
+
+* update icon class name to match figma value ([#52](https://github.com/cds-snc/gcds-fonts/issues/52)) ([62d776d](https://github.com/cds-snc/gcds-fonts/commit/62d776da4e38027934a1ddd66952ee2634e2bac5))
+
 ## [0.2.1](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.0...gcds-fonts-v0.2.1) 
 
 Released on: 2025-02-13
