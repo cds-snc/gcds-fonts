@@ -1,6 +1,8 @@
 # Changelog
 
-## [0.2.2](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.1...gcds-fonts-v0.2.2) (2025-03-03)
+## [0.2.2](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.1...gcds-fonts-v0.2.2)
+
+Released on: 2025-03-03
 
 
 ### :bug: :wrench: Bug Fixes
