@@ -4,8 +4,8 @@
 */
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/file/gcds-noto-sans-mono.woff2") format("woff2"),
-    url("path/to/file/gcds-noto-sans-mono.woff") format("woff");
+  src: url("./gcds-noto-sans-mono.woff2") format("woff2"),
+    url("./gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
