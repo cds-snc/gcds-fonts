@@ -1,12 +1,13 @@
 # Changelog
 
-## 1.0.0 (2025-09-24)
+## 1.0.0
+Released on: 2025-09-24
 
 
 ### ⚠ BREAKING CHANGES
-### :rocket: New Features
-
-* Update scope and package name to @gcds-core/fonts ([#62](https://github.com/cds-snc/gcds-fonts/issues/62))
+* **:rocket: New Package release**
+  This package has been renamed and published under the new scope `@gcds-core/fonts`.
+  It is now available as a stable 1.0.0 release, marking its first official publication under the new namespace. ([#62](https://github.com/cds-snc/gcds-fonts/issues/62))
 
 
 ## [0.2.2](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.1...gcds-fonts-v0.2.2)
