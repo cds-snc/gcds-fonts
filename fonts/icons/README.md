@@ -20,12 +20,12 @@ To use GC Design System icons in your project, place the following code in your 
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -112,7 +112,7 @@ Use the `@latest` version of GC Design System icons to receive automatic updates
 Navigate to the root folder of your project and run:
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
@@ -121,12 +121,12 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
-      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+    url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -244,12 +244,12 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
+    url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -336,7 +336,7 @@ Utilisez la version `@latest` de icônes de Système de design GC pour recevoir 
 Naviguez jusqu'au dossier racine de votre projet et exécutez :
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
@@ -345,12 +345,12 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
-      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+    url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;

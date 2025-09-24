@@ -18,8 +18,8 @@ To use the `Lato` font in your project, place the following code in your CSS or 
 <!-- GC Design System Fonts - Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -27,8 +27,8 @@ To use the `Lato` font in your project, place the following code in your CSS or 
 
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;
@@ -116,8 +116,8 @@ Pour utiliser la police `Lato` dans votre projet, placez le code suivant dans vo
 <!-- Polices de Système de design GC — Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -125,8 +125,8 @@ Pour utiliser la police `Lato` dans votre projet, placez le code suivant dans vo
 
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;

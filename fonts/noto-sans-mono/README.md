@@ -18,8 +18,8 @@ To use the `Noto Sans Mono` font in your project, place the following code in yo
 <!-- GC Design System Fonts - Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -40,7 +40,7 @@ Use the `@latest` version of GC Design System Fonts - Noto Sans Mono to receive 
 Navigate to the root folder of your project and run:
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
@@ -86,8 +86,8 @@ Pour utiliser la police `Noto Sans Mono` dans votre projet, placez le code suiva
 <!-- Polices de Système de design GC — Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("https://cdn.design-system.alpha.canada.ca/@gcds-core/fonts@<version-number>/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -108,7 +108,7 @@ Utilisez la version `@latest` de Polices de Système de design GC — Noto Sans 
 Naviguez jusqu'au dossier racine de votre projet et exécutez :
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
