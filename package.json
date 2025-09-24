@@ -1,6 +1,6 @@
 {
-  "name": "@cdssnc/gcds-fonts",
-  "version": "0.2.2",
+  "name": "@gcds-core/fonts",
+  "version": "1.0.0",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Fonts",
   "homepage": "https://design-system.alpha.canada.ca/",
