@@ -4,11 +4,11 @@
 */
 @font-face {
   font-family: "gcds-icons";
-  src: url("<path-to-file>/gcds-icons.eot");
-  src: url("<path-to-file>/gcds-icons.eot#iefix") format("embedded-opentype"),
-    url("<path-to-file>/gcds-icons.ttf") format("truetype"),
-    url("<path-to-file>/gcds-icons.woff") format("woff"),
-    url("<path-to-file>/gcds-icons.svg") format("svg");
+  src: url("./gcds-icons.eot");
+  src: url("./gcds-icons.eot#iefix") format("embedded-opentype"),
+    url("./gcds-icons.ttf") format("truetype"),
+    url("./gcds-icons.woff") format("woff"),
+    url("./gcds-icons.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
