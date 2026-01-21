@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Publish @cdssnc/gcds-fonts to npm
-        uses: JS-DevTools/npm-publish@e6cc16d2d37d6c24b542679f7b14ca20ba56d40a
+        uses: JS-DevTools/npm-publish@4ce4bd0f334d5316473155078da1955d42148494
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
