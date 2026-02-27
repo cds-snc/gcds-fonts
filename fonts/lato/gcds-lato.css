@@ -4,16 +4,16 @@
 */
 @font-face {
   font-family: "Lato";
-  src: url("path/to/file/gcds-lato.woff2") format("woff2"),
-    url("path/to/file/gcds-lato.woff") format("woff");
+  src: url("./gcds-lato.woff2") format("woff2"),
+    url("./gcds-lato.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/file/gcds-lato-italic.woff2") format("woff2"),
-    url("path/to/file/gcds-lato-italic.woff") format("woff");
+  src: url("./gcds-lato-italic.woff2") format("woff2"),
+    url("./gcds-lato-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
