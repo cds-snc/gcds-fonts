@@ -49,8 +49,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -117,8 +117,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Noto Sans Mono -->
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans-mono/gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
