@@ -12,7 +12,7 @@ GC Design System paragraphs and other, non-heading text use the open-source font
 
 Use the latest version of GC Design System Fonts - Noto Sans. Pinned versions provide stability and predictability because the code will remain consistent and won't change unexpectedly, which can be crucial for maintaining the stability of an application. However, it requires manual updating of the CDN links whenever a newer version of GC Design System Fonts - Noto Sans is released.
 
-To use the `Noto Sans` font in your project, place the following code in your CSS or include the [gcds-noto-sans.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/noto-sans/gcds-noto-sans.css) file in your project.  Replace `<version-number>` with the latest version number to receive corresponding updates.
+To use the `Noto Sans` font in your project, place the following code in your CSS or include the [gcds-noto-sans.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/noto-sans/gcds-noto-sans.css) file in your project. Replace `<version-number>` with the latest version number to receive corresponding updates.
 
 ```css
 <!-- GC Design System Fonts - Noto Sans -->
@@ -121,80 +121,80 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Noto Sans -->
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
@@ -224,7 +224,7 @@ Les paragraphes de Système de design GC, ainsi que les autres éléments textue
 
 Utilisez la version la plus récente de Polices de Système de design GC — Noto Sans. Les versions épinglées offrent stabilité et prévisibilité parce que le code ne changera pas de manière inattendue, ce qui peut être crucial pour maintenir la stabilité d'une application. Toutefois, il faut mettre à jour manuellement les liens CDN chaque fois qu'une version plus récente de Polices de Système de design GC — Noto Sans est publiée.
 
-Pour utiliser la police `Noto Sans` dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-noto-sans.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/noto-sans/gcds-noto-sans.css) dans votre projet.  Remplacez `<version-number>` par le numéro de version le plus récent pour recevoir les mises à jour correspondantes.
+Pour utiliser la police `Noto Sans` dans votre projet, placez le code suivant dans votre CSS ou incluez le fichier [gcds-noto-sans.css](https://github.com/cds-snc/gcds-fonts/blob/main/fonts/noto-sans/gcds-noto-sans.css) dans votre projet. Remplacez `<version-number>` par le numéro de version le plus récent pour recevoir les mises à jour correspondantes.
 
 ```css
 <!-- Polices de Système de design GC — Noto Sans -->
@@ -333,80 +333,80 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Noto Sans -->
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-light-italic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-regular-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-medium-italic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-semibold-italic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff2") format("woff2"),
-       url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff") format("woff");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff2") format("woff2"),
+       url("path/to/node_modules/@gcds-core/fonts/fonts/noto-sans/gcds-noto-sans-bold-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
