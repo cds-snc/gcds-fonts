@@ -46,60 +46,84 @@ To use GC Design System icons in your project, place the following code in your 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f010";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f00f";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f00e";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f00d";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f00c";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f00b";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f00a";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f009";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f008";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f006";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f004";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f003";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f001";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f007";
 }
 ```
 
@@ -147,60 +171,84 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f010";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f00f";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f00e";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f00d";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f00c";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f00b";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f00a";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f009";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f008";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f006";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f004";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f003";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f001";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f007";
 }
 ```
 
@@ -270,60 +318,84 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f010";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f00f";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f00e";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f00d";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f00c";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f00b";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f00a";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f009";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f008";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f006";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f004";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f003";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f001";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f007";
 }
 ```
 
@@ -371,60 +443,84 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f010";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f00f";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f00e";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f00d";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f00c";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f00b";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f00a";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f009";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f008";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f006";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f004";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f003";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f001";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f007";
 }
 ```
 
