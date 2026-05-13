@@ -1,18 +1,18 @@
-name: Publish fonts
+name: Publish GCDS Fonts
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'package.json'
+    tags:
+      - "@gcds-core/fonts*"
 
 permissions:
   id-token: write
   contents: read
 
 env:
-  PACKAGE_NAME: '@cdssnc/gcds-fonts'
+  CDN_BUCKET: gc-design-system-production-cdn
+  CDN_REGION: ca-central-1
+  PACKAGE_NAME: "@gcds-core/fonts"
 
 jobs:
   publish-fonts:
@@ -22,8 +22,40 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
-      - name: Publish @cdssnc/gcds-fonts to npm
-        uses: JS-DevTools/npm-publish@e6cc16d2d37d6c24b542679f7b14ca20ba56d40a
-        id: publish
+      - name: Setup Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
-          token: ${{ secrets.NPM_TOKEN }}
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Get version from package.json
+        id: get_version
+        run: echo "VERSION=$(jq -r '.version' package.json)" >> $GITHUB_ENV
+
+      - name: Check if package exists
+        id: package_exists
+        run: |
+          if npm show ${{ env.PACKAGE_NAME }}@${{ env.VERSION }} > /dev/null 2>&1; then
+            echo "pkg_exists=true" >> $GITHUB_ENV
+          else
+            echo "pkg_exists=false" >> $GITHUB_ENV
+          fi
+
+      - name: Publish @gcds-core/fonts to npm
+        if: env.pkg_exists != 'true'
+        id: publish
+        run: npm publish --ignore-scripts --access public
+
+      - name: Slack notify on failure
+        if: failure()
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/fonts failed: <https://github.com/cds-snc/gcds-fonts/actions/workflows/publish.yml|Publish fonts>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
+
+      - name: Slack notify on release and publish
+        if: steps.publish.outputs.id != ''
+        run: |
+          VERSION=$(jq -r '.version' package.json)
+          json='{"text":"🚀 New release available! @gcds-core/fonts *version <https://github.com/cds-snc/gcds-fonts/releases/tag/gcds-fonts-v'$VERSION'|${{steps.publish.outputs.id}}>*"}'
+          echo "Posting to slack: $json"
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_DSNDEV }}
