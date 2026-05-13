@@ -2,7 +2,7 @@ name: Upload fonts to CDN
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Publish fonts"]
+    workflows: ["Publish GCDS Fonts"]
     types:
       - completed
 
@@ -13,13 +13,13 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: '@gcds-core/fonts'
+  PACKAGE_NAME: "@gcds-core/fonts"
 
 jobs:
   upload-to-cdn:
     name: Publish
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     steps:
       - name: Git Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
