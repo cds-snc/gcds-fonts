@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.0.0...fonts-v1.1.0) (2026-05-13)
+
+
+### :rocket: New Features
+
+* add new table icons to icon font ([75ebb9d](https://github.com/cds-snc/gcds-fonts/commit/75ebb9d1e1dda7b4f00d5aa222e7d18206112a96))
+* **icons:** add new table icons to icon font ([#86](https://github.com/cds-snc/gcds-fonts/issues/86)) ([75ebb9d](https://github.com/cds-snc/gcds-fonts/commit/75ebb9d1e1dda7b4f00d5aa222e7d18206112a96))
+* notify when issue created by external user ([#69](https://github.com/cds-snc/gcds-fonts/issues/69)) ([b093c64](https://github.com/cds-snc/gcds-fonts/commit/b093c64f709b508b07a56ed61d14a1ab2d050a55))
+
+
+### :bug: :wrench: Bug Fixes
+
+* escape of issue title characters ([#72](https://github.com/cds-snc/gcds-fonts/issues/72)) ([5e3dcde](https://github.com/cds-snc/gcds-fonts/commit/5e3dcdeca39188ac4700b3369d8c42863b18ca09))
+
 ## [1.0.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.2...gcds-fonts-v1.0.0)
 Released on: 2025-09-24
 
