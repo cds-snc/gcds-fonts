@@ -1,53 +1,44 @@
 # Changelog
 
-## [1.1.0](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.0.0...fonts-v1.1.0) (2026-05-13)
+## [1.1.0](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.0.0...fonts-v1.1.0)
 
+Released on: 2026-05-13
 
 ### :rocket: New Features
 
-* add new table icons to icon font ([75ebb9d](https://github.com/cds-snc/gcds-fonts/commit/75ebb9d1e1dda7b4f00d5aa222e7d18206112a96))
-* **icons:** add new table icons to icon font ([#86](https://github.com/cds-snc/gcds-fonts/issues/86)) ([75ebb9d](https://github.com/cds-snc/gcds-fonts/commit/75ebb9d1e1dda7b4f00d5aa222e7d18206112a96))
-* notify when issue created by external user ([#69](https://github.com/cds-snc/gcds-fonts/issues/69)) ([b093c64](https://github.com/cds-snc/gcds-fonts/commit/b093c64f709b508b07a56ed61d14a1ab2d050a55))
-
-
-### :bug: :wrench: Bug Fixes
-
-* escape of issue title characters ([#72](https://github.com/cds-snc/gcds-fonts/issues/72)) ([5e3dcde](https://github.com/cds-snc/gcds-fonts/commit/5e3dcdeca39188ac4700b3369d8c42863b18ca09))
+- **icons:** add new table icons to icon font ([#86](https://github.com/cds-snc/gcds-fonts/issues/86)) ([75ebb9d](https://github.com/cds-snc/gcds-fonts/commit/75ebb9d1e1dda7b4f00d5aa222e7d18206112a96))
 
 ## [1.0.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.2...gcds-fonts-v1.0.0)
+
 Released on: 2025-09-24
 
-
 ### ⚠ BREAKING CHANGES
-* **:rocket: New Package release**
+
+- **:rocket: New Package release**
   This package has been renamed and published under the new scope `@gcds-core/fonts`.
   It is now available as a stable 1.0.0 release, marking its first official publication under the new namespace. ([#62](https://github.com/cds-snc/gcds-fonts/issues/62))
-
 
 ## [0.2.2](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.1...gcds-fonts-v0.2.2)
 
 Released on: 2025-03-03
 
-
 ### :bug: :wrench: Bug Fixes
 
-* update icon class name to match figma value ([#52](https://github.com/cds-snc/gcds-fonts/issues/52)) ([62d776d](https://github.com/cds-snc/gcds-fonts/commit/62d776da4e38027934a1ddd66952ee2634e2bac5))
+- update icon class name to match figma value ([#52](https://github.com/cds-snc/gcds-fonts/issues/52)) ([62d776d](https://github.com/cds-snc/gcds-fonts/commit/62d776da4e38027934a1ddd66952ee2634e2bac5))
 
-## [0.2.1](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.0...gcds-fonts-v0.2.1) 
+## [0.2.1](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.2.0...gcds-fonts-v0.2.1)
 
 Released on: 2025-02-13
 
-
 ### :bug: :wrench: Bug Fixes
 
-* update icon font installation instructions + css classes ([#48](https://github.com/cds-snc/gcds-fonts/issues/48)) ([f953f99](https://github.com/cds-snc/gcds-fonts/commit/f953f99f9deaa36347daabaaacc6a793e5897c68))
+- update icon font installation instructions + css classes ([#48](https://github.com/cds-snc/gcds-fonts/issues/48)) ([f953f99](https://github.com/cds-snc/gcds-fonts/commit/f953f99f9deaa36347daabaaacc6a793e5897c68))
 
 ## [0.2.0](https://github.com/cds-snc/gcds-fonts/compare/gcds-fonts-v0.1.0...gcds-fonts-v0.2.0) (2025-02-10)
 
-
 ### :rocket: New Features
 
-* add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
+- add fonts demo ([#44](https://github.com/cds-snc/gcds-fonts/issues/44)) ([a78eb91](https://github.com/cds-snc/gcds-fonts/commit/a78eb91f8795bbb69f6c1aad66d612b7e0f99f54))
 
 ## 0.1.0
 
