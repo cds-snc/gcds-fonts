@@ -59,43 +59,43 @@ To use GC Design System icons in your project, place the following code in your 
 }
 
 .gcds-icon-checkmark-circle:before {
-  content: "\f010";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\f00f";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\f00e";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\f00d";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\f00c";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\f00b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\f00a";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\f009";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\f008";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\f006";
+  content: "\f018";
 }
 
 .gcds-icon-filter:before {
@@ -103,11 +103,11 @@ To use GC Design System icons in your project, place the following code in your 
 }
 
 .gcds-icon-info-circle:before {
-  content: "\f004";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\f003";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
@@ -115,7 +115,7 @@ To use GC Design System icons in your project, place the following code in your 
 }
 
 .gcds-icon-sort:before {
-  content: "\f001";
+  content: "\f003";
 }
 
 .gcds-icon-tune:before {
@@ -123,7 +123,7 @@ To use GC Design System icons in your project, place the following code in your 
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\f007";
+  content: "\f014";
 }
 ```
 
@@ -184,43 +184,43 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 }
 
 .gcds-icon-checkmark-circle:before {
-  content: "\f010";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\f00f";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\f00e";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\f00d";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\f00c";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\f00b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\f00a";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\f009";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\f008";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\f006";
+  content: "\f018";
 }
 
 .gcds-icon-filter:before {
@@ -228,11 +228,11 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 }
 
 .gcds-icon-info-circle:before {
-  content: "\f004";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\f003";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
@@ -240,7 +240,7 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 }
 
 .gcds-icon-sort:before {
-  content: "\f001";
+  content: "\f003";
 }
 
 .gcds-icon-tune:before {
@@ -248,7 +248,7 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\f007";
+  content: "\f014";
 }
 ```
 
@@ -331,43 +331,43 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 }
 
 .gcds-icon-checkmark-circle:before {
-  content: "\f010";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\f00f";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\f00e";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\f00d";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\f00c";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\f00b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\f00a";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\f009";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\f008";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\f006";
+  content: "\f018";
 }
 
 .gcds-icon-filter:before {
@@ -375,11 +375,11 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 }
 
 .gcds-icon-info-circle:before {
-  content: "\f004";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\f003";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
@@ -387,7 +387,7 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 }
 
 .gcds-icon-sort:before {
-  content: "\f001";
+  content: "\f003";
 }
 
 .gcds-icon-tune:before {
@@ -395,7 +395,7 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\f007";
+  content: "\f014";
 }
 ```
 
@@ -456,43 +456,43 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 }
 
 .gcds-icon-checkmark-circle:before {
-  content: "\f010";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\f00f";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\f00e";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\f00d";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\f00c";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\f00b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\f00a";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\f009";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\f008";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\f006";
+  content: "\f018";
 }
 
 .gcds-icon-filter:before {
@@ -500,11 +500,11 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 }
 
 .gcds-icon-info-circle:before {
-  content: "\f004";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\f003";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
@@ -512,7 +512,7 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 }
 
 .gcds-icon-sort:before {
-  content: "\f001";
+  content: "\f003";
 }
 
 .gcds-icon-tune:before {
@@ -520,7 +520,7 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\f007";
+  content: "\f014";
 }
 ```
 

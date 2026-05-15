@@ -42,43 +42,43 @@
 }
 
 .gcds-icon-checkmark-circle:before {
-  content: "\f010";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\f00f";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\f00e";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\f00d";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\f00c";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\f00b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\f00a";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\f009";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\f008";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\f006";
+  content: "\f018";
 }
 
 .gcds-icon-filter:before {
@@ -86,11 +86,11 @@
 }
 
 .gcds-icon-info-circle:before {
-  content: "\f004";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\f003";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
@@ -98,7 +98,7 @@
 }
 
 .gcds-icon-sort:before {
-  content: "\f001";
+  content: "\f003";
 }
 
 .gcds-icon-tune:before {
@@ -106,5 +106,5 @@
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\f007";
+  content: "\f014";
 }
