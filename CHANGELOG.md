@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.1.0...fonts-v1.1.1)
+
+Released on: 2026-05-19
+
+
+### :bug: :wrench: Bug Fixes
+
+* **icons:** update icon font with corrected sizing ([#90](https://github.com/cds-snc/gcds-fonts/issues/90)) ([359c5a8](https://github.com/cds-snc/gcds-fonts/commit/359c5a8ea202f8dc0e7ecfd37b1df73dd82b44d4))
+
 ## [1.1.0](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.0.0...fonts-v1.1.0)
 
 Released on: 2026-05-13
