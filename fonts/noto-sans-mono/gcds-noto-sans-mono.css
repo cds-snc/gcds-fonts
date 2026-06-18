@@ -1,10 +1,14 @@
 /*
-  Replace path/to/file with the correct path to
-  the gcds-noto-sans-mono font files in your project
+  The font paths below are relative to this file,
+  so they work as-is when this stylesheet is imported
+  or linked directly. If you copy these rules into
+  your own CSS, update each url() to point to where the
+  gcds-noto-sans-mono font files are located in your project.
 */
 @font-face {
   font-family: "Noto Sans Mono";
-  src: url("./gcds-noto-sans-mono.woff2") format("woff2"),
+  src:
+    url("./gcds-noto-sans-mono.woff2") format("woff2"),
     url("./gcds-noto-sans-mono.woff") format("woff");
   font-weight: 400;
   font-style: normal;
