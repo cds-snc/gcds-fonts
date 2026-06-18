@@ -18,8 +18,8 @@ To use the `Lato` font in your project, place the following code in your CSS or 
 <!-- GC Design System Fonts - Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -27,8 +27,8 @@ To use the `Lato` font in your project, place the following code in your CSS or 
 
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;
@@ -55,7 +55,7 @@ Use the `@latest` version of GC Design System Fonts - Lato to receive automatic 
 Navigate to the root folder of your project and run:
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
@@ -64,8 +64,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -73,8 +73,8 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;
@@ -116,8 +116,8 @@ Pour utiliser la police `Lato` dans votre projet, placez le code suivant dans vo
 <!-- Polices de Système de design GC — Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato.woff")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -125,8 +125,8 @@ Pour utiliser la police `Lato` dans votre projet, placez le code suivant dans vo
 
 @font-face {
   font-family: "Lato";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;
@@ -153,7 +153,7 @@ Utilisez la version `@latest` de Polices de Système de design GC — Lato pour 
 Naviguez jusqu'au dossier racine de votre projet et exécutez :
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
@@ -162,8 +162,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Lato -->
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato.woff")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.woff2")
+      format("woff2"), url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.woff")
       format("woff");
   font-weight: 700;
   font-style: normal;
@@ -171,8 +171,8 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff2")
-      format("woff2"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/lato/gcds-lato-italic.woff")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato-italic.woff2")
+      format("woff2"), url("path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato-italic.woff")
       format("woff");
   font-weight: 700;
   font-style: italic;

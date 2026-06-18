@@ -20,12 +20,12 @@ To use GC Design System icons in your project, place the following code in your 
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
+    url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -46,60 +46,84 @@ To use GC Design System icons in your project, place the following code in your 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f018";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f003";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f014";
 }
 ```
 
@@ -112,7 +136,7 @@ Use the `@latest` version of GC Design System icons to receive automatic updates
 Navigate to the root folder of your project and run:
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
@@ -121,12 +145,12 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
 <!-- GC Design System Fonts - Icons -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
-      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+    url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -147,60 +171,84 @@ Place the following code in your CSS and replace `path/to/node_modules` with the
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f018";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f003";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f014";
 }
 ```
 
@@ -244,12 +292,12 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot");
-  src: url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.ttf")
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot");
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.ttf")
       format("truetype"),
-    url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.woff")
-      format("woff"), url("https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-fonts@<version-number>/icons/gcds-icons.svg")
+    url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.woff")
+      format("woff"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@<version-number>/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -270,60 +318,84 @@ Pour utiliser les icônes de Système de design GC dans votre projet, placez le 
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f018";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f003";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f014";
 }
 ```
 
@@ -336,7 +408,7 @@ Utilisez la version `@latest` de icônes de Système de design GC pour recevoir 
 Naviguez jusqu'au dossier racine de votre projet et exécutez :
 
 ```js
-npm install @cdssnc/gcds-fonts
+npm install @gcds-core/fonts
 ```
 
 Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
@@ -345,12 +417,12 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
 <!-- Polices de Système de design GC — Icônes -->
 @font-face {
   font-family: "gcds-icons";
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot");
-  src: url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.eot#iefix")
-      format("embedded-opentype"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf")
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot");
+  src: url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.eot#iefix")
+      format("embedded-opentype"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.ttf")
       format("truetype"),
-    url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff")
-      format("woff"), url("path/to/node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.svg")
+    url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.woff")
+      format("woff"), url("path/to/node_modules/@gcds-core/fonts/fonts/icons/gcds-icons.svg")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -371,60 +443,84 @@ Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f018";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f003";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f014";
 }
 ```
 

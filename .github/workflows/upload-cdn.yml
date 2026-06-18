@@ -2,7 +2,7 @@ name: Upload fonts to CDN
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Publish fonts"]
+    workflows: ["Publish GCDS Fonts"]
     types:
       - completed
 
@@ -13,27 +13,25 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: '@cdssnc/gcds-fonts'
+  PACKAGE_NAME: "@gcds-core/fonts"
 
 jobs:
   upload-to-cdn:
     name: Publish
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     steps:
       - name: Git Checkout
-        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Configure AWS credentials using OIDC
-        if: github.event.workflow_run.conclusion == 'success'
-        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
         with:
           role-to-assume: arn:aws:iam::307395567143:role/gcds-fonts-apply
           role-session-name: CDNPublish
           aws-region: ${{ env.CDN_REGION }}
 
       - name: Update CDN
-        if: github.event.workflow_run.conclusion == 'success'
         run: |
           VERSION="$(cat package.json | jq -r .version)"
           PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
@@ -48,8 +46,7 @@ jobs:
           aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
 
       - name: Report deployment to Sentinel
-        if: github.event.workflow_run.conclusion == 'success'
-        uses: cds-snc/sentinel-forward-data-action@main
+        uses: cds-snc/sentinel-forward-data-action@52ea856d686360100a680e38c40134d4e010b94d # main
         with:
           input_data: '{"product": "design-system", "sha": "${{ github.sha }}", "version": "${{steps.publish.outputs.id}}", "repository": "${{ github.repository }}", "environment": "production", "status": "${{ job.status }}"}'
           log_type: CDS_Product_Deployment_Data

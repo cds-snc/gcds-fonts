@@ -1,9 +1,9 @@
 {
-  "name": "@cdssnc/gcds-fonts",
-  "version": "0.2.2",
+  "name": "@gcds-core/fonts",
+  "version": "1.1.1",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Fonts",
-  "homepage": "https://design-system.alpha.canada.ca/",
+  "homepage": "https://design-system.canada.ca/",
   "files": [
     "fonts/"
   ],
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/cds-snc/gcds-fonts/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
