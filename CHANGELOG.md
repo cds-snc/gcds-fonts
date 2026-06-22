@@ -2,6 +2,18 @@
 
 # Changelog
 
+## [1.1.2](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.1.1...fonts-v1.1.2) (2026-06-22)
+
+
+### :bug: :wrench: Bug Fixes
+
+* **css:** Use relative paths for font assets so CSS works when imported directly ([#57](https://github.com/cds-snc/gcds-fonts/issues/57)) ([f890c01](https://github.com/cds-snc/gcds-fonts/commit/f890c01a89389b709a33df792e3071a638725432))
+
+
+### :pencil: Documentation
+
+* archive old changelogs ([#93](https://github.com/cds-snc/gcds-fonts/issues/93)) ([286a421](https://github.com/cds-snc/gcds-fonts/commit/286a42110e0e573570d699948d50ef8005c299c1))
+
 ## [1.1.1](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.1.0...fonts-v1.1.1)
 
 Released on: 2026-05-19
