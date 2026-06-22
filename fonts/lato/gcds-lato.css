@@ -1,19 +1,24 @@
 /*
-  Replace path/to/file with the correct path to
-  the gcds-lato font files in your project
+  The font paths below are relative to this file,
+  so they work as-is when this stylesheet is imported
+  or linked directly. If you copy these rules into
+  your own CSS, update each url() to point to where the
+  gcds-lato font files are located in your project.
 */
 @font-face {
   font-family: "Lato";
-  src: url("path/to/file/gcds-lato.woff2") format("woff2"),
-    url("path/to/file/gcds-lato.woff") format("woff");
+  src:
+    url("./gcds-lato.woff2") format("woff2"),
+    url("./gcds-lato.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("path/to/file/gcds-lato-italic.woff2") format("woff2"),
-    url("path/to/file/gcds-lato-italic.woff") format("woff");
+  src:
+    url("./gcds-lato-italic.woff2") format("woff2"),
+    url("./gcds-lato-italic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }

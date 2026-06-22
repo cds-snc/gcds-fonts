@@ -58,7 +58,13 @@ Navigate to the root folder of your project and run:
 npm install @gcds-core/fonts
 ```
 
-Place the following code in your CSS and replace `path/to/node_modules` with the location where you've added the node modules:
+You can import the packaged stylesheet directly. Replace `path/to/node_modules` with the location where you installed the package. The font files are bundled alongside the CSS file, so their paths resolve automatically:
+
+```css
+@import "path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.css";
+```
+
+If you'd rather copy the `@font-face` rules into your own stylesheet, use the code below and update each `url()` to point to where the font files live:
 
 ```css
 <!-- GC Design System Fonts - Lato -->
@@ -156,7 +162,13 @@ Naviguez jusqu'au dossier racine de votre projet et exécutez :
 npm install @gcds-core/fonts
 ```
 
-Placez le code suivant dans votre CSS et remplacez `path/to/node_modules` par l'emplacement où vous avez ajouté les modules de Node :
+Vous pouvez importer la feuille de style fournie directement. Remplacez `path/to/node_modules` par l'emplacement où vous avez installé le paquet — comme les fichiers de police sont regroupés avec le fichier CSS, leurs chemins sont résolus automatiquement :
+
+```css
+@import "path/to/node_modules/@gcds-core/fonts/fonts/lato/gcds-lato.css";
+```
+
+Si vous préférez copier les règles `@font-face` dans votre propre feuille de style, utilisez le code ci-dessous et remplacez chaque `url()` par l'emplacement où se trouvent les fichiers de police :
 
 ```css
 <!-- Polices de Système de design GC — Lato -->
