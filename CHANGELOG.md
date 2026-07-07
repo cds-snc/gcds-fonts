@@ -2,7 +2,9 @@
 
 # Changelog
 
-## [1.1.2](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.1.1...fonts-v1.1.2) (2026-06-22)
+## [1.1.2](https://github.com/cds-snc/gcds-fonts/compare/fonts-v1.1.1...fonts-v1.1.2) 
+
+Released on: 2026-06-22
 
 
 ### :bug: :wrench: Bug Fixes
